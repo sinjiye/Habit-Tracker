@@ -1,6 +1,6 @@
-\#당신을 바꾸는 습관
+# 당신을 바꾸는 습관
 
-\# 1. Conceptualization
+# 1. Conceptualization
 
 
 
@@ -14,45 +14,36 @@ Name. 신지예
 
 E-mail. sinjiue0506@naver.com
 
-\---
+---
 
 
 
-\##Revision history
+##Revision history
 
-|Revision data|Version|Descrption|Author|
 
-|------|---|------|------|
+| Revision data | Version | Descrption | Author| 
 
-|3/27/2026|1.00|초안|신지예|
+| :------: | :---: | :------: | :------: |
 
-|||||
-
-|||||
-
-|||||
-
-|||||
-
-|||||
+| 3/27/2026 | 1.00 | 초안 | 신지예 |
 
 
 
-\---
+---
 
 
 
-\## 1. Business purpose
+## 1. Business purpose
 
 
 
-!\[사람들의 새해 다짐](https://cdn.sisunnews.co.kr/news/photo/202212/176010\_334240\_1513.png)
+![사람들의 새해 다짐](https://cdn.sisunnews.co.kr/news/photo/202212/176010\_334240\_1513.png)
 
-!\[직장인들이 고치고싶은 습관](https://cdn.thescoop.co.kr/news/photo/201509/17465\_21027\_438.jpg)
+![직장인들이 고치고싶은 습관](https://cdn.thescoop.co.kr/news/photo/201509/17465\_21027\_438.jpg)
 
 
 
-\#### 1) Project background
+#### 1) Project background
 
 현대 사회에서는 자기계발과 생산성 향상이 중요한 가치로 자리 잡고 있다. 특히 학생과 직장인을 포함한 많은 사람들이 학업, 운동, 독서 등 다양한 목표를 설정하고 이를 꾸준히 실천하려고 노력한다. 그러나 이러한 습관을 형성하고 유지하는 과정은 생각보다 어렵다. 초기에는 높은 의지를 가지고 시작하더라도 시간이 지남에 따라 동기부여가 감소하고, 결국 습관을 지속하지 못하는 경우가 많다.
 
@@ -64,217 +55,220 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 2) Goal
+#### 2) Goal
 
-\- 사용자의 습관을 등록하고 관리할 수 있는 시스템 제공
+- 사용자의 습관을 등록하고 관리할 수 있는 시스템 제공
+- 습관 수행 여부를 기록하고 시각적으로 확인
+- 달성률 및 연속 성공일 제공
+- 간단한 UI를 통해 누구나 쉽게 사용 가능
 
-\- 습관 수행 여부를 기록하고 시각적으로 확인
 
-\- 달성률 및 연속 성공일 제공
 
-\- 간단한 UI를 통해 누구나 쉽게 사용 가능
+#### 3) Target Market
 
+- 자기계발을 원하는 학생
+- 일정 및 습관 관리가 필요한 직장인
+- 운동, 공부 등 목표를 꾸준히 유지하고 싶은 사용자
 
 
-\#### 3) Target Market
 
-\- 자기계발을 원하는 학생
+---
 
-\- 일정 및 습관 관리가 필요한 직장인
 
-\- 운동, 공부 등 목표를 꾸준히 유지하고 싶은 사용자
 
+## 2. System context diagram
 
 
-\---
 
+![시스템 다이어그램](스크린샷 2026-03-27 192553.png)
 
 
-\## 2. System context diagram
 
+- Register Habit (습관 등록)
+- Delete Habit (습관 삭제)
+- View Habit List (습관 목록 조회)
+- Check Habit (습관 수행 체크)
+- View Statistics (통계 조회)
+- Save Data (데이터 저장)
+- Load Data (데이터 불러오기)
 
 
-!\[시스템 다이어그램](스크린샷 2026-03-27 192553.png)
 
+---
 
 
-\- Register Habit (습관 등록)
 
-\- Delete Habit (습관 삭제)
+## 3. Use case list
 
-\- View Habit List (습관 목록 조회)
 
-\- Check Habit (습관 수행 체크)
 
-\- View Statistics (통계 조회)
+#### 1) Register Habit
 
-\- Save Data (데이터 저장)
 
-\- Load Data (데이터 불러오기)
+**Actor**: User
 
+**Description**: 사용자가 새로운 습관을 등록한다.
 
 
-\---
 
+#### 2) Delete Habit
 
 
-\## 3. Use case list
+**Actor**: User
 
+**Description**: 사용자가 기존 습관을 삭제한다.
 
 
-\#### 1) Register Habit
 
-\*\*Actor\*\*: User
+#### 3) View Habit List
 
-\*\*Description\*\*: 사용자가 새로운 습관을 등록한다.
 
+**Actor**: User
 
+**Description**: 등록된 습관 목록을 조회한다.
 
-\#### 2) Delete Habit
 
-\*\*Actor\*\*: User
 
-\*\*Description\*\*: 사용자가 기존 습관을 삭제한다.
+#### 4) Check Habit
 
 
+**Actor**: User
 
-\#### 3) View Habit List
+**Description**: 사용자가 특정 날짜의 습관 수행 여부를 체크한다.
 
-\*\*Actor\*\*: User
 
-\*\*Description\*\*: 등록된 습관 목록을 조회한다.
 
+#### 5) View Statistics
 
 
-\#### 4) Check Habit
+**Actor**: User
 
-\*\*Actor\*\*: User
+**Description**: 습관의 달성률 및 연속 성공일을 확인한다.
 
-\*\*Description\*\*: 사용자가 특정 날짜의 습관 수행 여부를 체크한다.
 
 
+#### 6) Save Data
 
-\#### 5) View Statistics
 
-\*\*Actor\*\*: User
+**Actor**: System
 
-\*\*Description\*\*: 습관의 달성률 및 연속 성공일을 확인한다.
+**Description**: 사용자의 습관 및 기록 데이터를 저장한다.
 
 
 
-\#### 6) Save Data
+#### 7) Load Data
 
-\*\*Actor\*\*: System
 
-\*\*Description\*\*: 사용자의 습관 및 기록 데이터를 저장한다.
+**Actor**: System
 
+**Description**: 저장된 데이터를 불러온다.
 
 
-\#### 7) Load Data
 
-\*\*Actor\*\*: System
+---
 
-\*\*Description\*\*: 저장된 데이터를 불러온다.
 
 
+## 4. Concept of operation
 
-\---
 
 
+#### 1) Register Habit
 
-\## 4. Concept of operation
 
+**Purpose**: 새로운 습관 추가
 
+**Approach**: 사용자가 습관 이름과 설명을 입력하면 시스템에 저장한다.
 
-\#### 1) Register Habit
+**Dynamics**: 사용자가 새로운 목표를 설정할 경우
 
-\*\*Purpose\*\*: 새로운 습관 추가
+**Goals**: 사용자가 원하는 습관을 등록할 수 있도록 한다.
 
-\*\*Approach\*\*: 사용자가 습관 이름과 설명을 입력하면 시스템에 저장한다.
 
-\*\*Dynamics\*\*: 사용자가 새로운 목표를 설정할 경우
 
-\*\*Goals\*\*: 사용자가 원하는 습관을 등록할 수 있도록 한다.
+#### 2) Delete Habit
 
 
+**Purpose**: 기존 습관 제거
 
-\#### 2) Delete Habit
+**Approach**: 사용자가 선택한 습관을 시스템에서 삭제한다.
 
-\*\*Purpose\*\*: 기존 습관 제거
+**Dynamics**: 사용자가 더 이상 필요 없는 습관을 제거할 경우
 
-\*\*Approach\*\*: 사용자가 선택한 습관을 시스템에서 삭제한다.
+**Goals**: 불필요한 습관을 관리할 수 있도록 한다.
 
-\*\*Dynamics\*\*: 사용자가 더 이상 필요 없는 습관을 제거할 경우
 
-\*\*Goals\*\*: 불필요한 습관을 관리할 수 있도록 한다.
 
+#### 3) View Habit List
 
 
-\#### 3) View Habit List
+**Purpose**: 등록된 습관 확인
 
-\*\*Purpose\*\*: 등록된 습관 확인
+**Approach**: 사용자가 등록한 모든 습관을 리스트 형태로 보여준다.
 
-\*\*Approach\*\*: 사용자가 등록한 모든 습관을 리스트 형태로 보여준다.
+**Dynamics**: 사용자가 자신의 습관을 확인하고 싶을 경우
 
-\*\*Dynamics\*\*: 사용자가 자신의 습관을 확인하고 싶을 경우
+**Goals**: 현재 관리 중인 습관을 한눈에 확인할 수 있도록 한다.
 
-\*\*Goals\*\*: 현재 관리 중인 습관을 한눈에 확인할 수 있도록 한다.
 
 
+#### 4) Check Habit
 
-\#### 4) Check Habit
 
-\*\*Purpose\*\*: 습관 수행 여부 기록
+**Purpose**: 습관 수행 여부 기록
 
-\*\*Approach\*\*: 사용자가 날짜별로 습관 수행 여부를 체크하면 기록이 저장된다.
+**Approach**: 사용자가 날짜별로 습관 수행 여부를 체크하면 기록이 저장된다.
 
-\*\*Dynamics\*\*: 사용자가 하루 습관을 완료했을 경우
+**Dynamics**: 사용자가 하루 습관을 완료했을 경우
 
-\*\*Goals\*\*: 습관 수행 여부를 정확하게 기록한다.
+**Goals**: 습관 수행 여부를 정확하게 기록한다.
 
 
 
-\#### 5) View Statistics
+#### 5) View Statistics
 
-\*\*Purpose\*\*: 습관 성과 확인
 
-\*\*Approach\*\*: 습관 수행 기록을 기반으로 달성률과 연속 성공일을 계산한다.
+**Purpose**: 습관 성과 확인
 
-\*\*Dynamics\*\*: 사용자가 자신의 성과를 확인하고 싶을 경우
+**Approach**: 습관 수행 기록을 기반으로 달성률과 연속 성공일을 계산한다.
 
-\*\*Goals\*\*: 사용자에게 동기부여를 제공한다.
+**Dynamics**: 사용자가 자신의 성과를 확인하고 싶을 경우
 
+**Goals**: 사용자에게 동기부여를 제공한다.
 
 
-\#### 6) Save Data
 
-\*\*Purpose\*\*: 데이터 유지
+#### 6) Save Data
 
-\*\*Approach\*\*: 사용자의 습관과 기록을 파일에 저장한다.
 
-\*\*Dynamics\*\*: 프로그램 종료 시
+**Purpose**: 데이터 유지
 
-\*\*Goals\*\*: 데이터 손실을 방지한다.
+**Approach**: 사용자의 습관과 기록을 파일에 저장한다.
 
+**Dynamics**: 프로그램 종료 시
 
+**Goals**: 데이터 손실을 방지한다.
 
-\#### 7) Load Data
 
-\*\*Purpose\*\*: 데이터 복원
 
-\*\*Approach\*\*: 저장된 데이터를 불러와 이전 상태를 유지한다.
+#### 7) Load Data
 
-\*\*Dynamics\*\*: 프로그램 실행 시
 
-\*\*Goals\*\*: 사용자 데이터를 유지한다.
+**Purpose**: 데이터 복원
 
+**Approach**: 저장된 데이터를 불러와 이전 상태를 유지한다.
 
+**Dynamics**: 프로그램 실행 시
 
-\---
+**Goals**: 사용자 데이터를 유지한다.
 
 
 
-\## 5. Problem statement
+---
+
+
+
+## 5. Problem statement
 
 
 
@@ -282,11 +276,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\---
-
-
-
-\#### 1) 사용자 입력 의존성 문제
+#### 1) 사용자 입력 의존성 문제
 
 습관 관리 시스템은 사용자가 직접 자신의 수행 여부를 입력해야 하는 구조를 가진다. 따라서 사용자가 기록을 누락하거나 부정확하게 입력할 경우, 시스템에서 제공하는 통계 데이터의 신뢰성이 떨어질 수 있다.
 
@@ -294,7 +284,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 2) 데이터 저장 및 손실 문제
+#### 2) 데이터 저장 및 손실 문제
 
 사용자의 습관 데이터와 기록은 시스템의 핵심 요소이다. 만약 데이터 저장 과정에서 오류가 발생하거나 프로그램이 비정상적으로 종료될 경우, 데이터가 손실될 위험이 있다.
 
@@ -302,7 +292,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 3) 사용자 데이터 보안 문제
+#### 3) 사용자 데이터 보안 문제
 
 습관 데이터는 개인의 생활 패턴과 관련된 정보이므로 사생활 보호 측면에서 중요하다. 만약 데이터가 외부에 노출되거나 무단으로 접근될 경우 사용자에게 불이익을 줄 수 있다.
 
@@ -310,7 +300,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 4) 사용자 지속성 문제 (동기부여 부족)
+#### 4) 사용자 지속성 문제 (동기부여 부족)
 
 습관 관리 프로그램의 가장 큰 문제 중 하나는 사용자가 지속적으로 프로그램을 사용하지 않는다는 점이다. 초기에는 적극적으로 사용하더라도 시간이 지나면서 사용 빈도가 감소하는 경우가 많다.
 
@@ -318,7 +308,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 5) 시스템 확장성 및 기능 제한 문제
+#### 5) 시스템 확장성 및 기능 제한 문제
 
 본 프로젝트는 비교적 간단한 규모로 설계되기 때문에, 향후 기능 확장(예: 알림 기능, 멀티 사용자 지원 등)에 제한이 있을 수 있다. 초기 설계 단계에서 구조를 잘못 설정할 경우, 기능 추가 시 코드 수정이 어려워질 수 있다.
 
@@ -326,7 +316,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\#### 6) 기술적 구현 난이도 문제
+#### 6) 기술적 구현 난이도 문제
 
 개발 과정에서 파일 입출력, 날짜 처리, 통계 계산 등의 기능을 구현해야 한다. 이러한 기능은 비교적 단순해 보이지만, 실제 구현 과정에서는 다양한 예외 상황이 발생할 수 있다.
 
@@ -334,11 +324,11 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\---
+---
 
 
 
-\## 6. Glossary
+## 6. Glossary
 
 
 
@@ -360,11 +350,11 @@ E-mail. sinjiue0506@naver.com
 
 
 
-\---
+---
 
 
 
-\## 7. References
+## 7. References
 
 
 
