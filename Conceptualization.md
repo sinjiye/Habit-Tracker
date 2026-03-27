@@ -20,11 +20,8 @@ E-mail. sinjiue0506@naver.com
 
 ##Revision history
 
-
 | Revision data | Version | Descrption | Author| 
-
 | :------: | :---: | :------: | :------: |
-
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
 
 
@@ -80,7 +77,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-![시스템 다이어그램](스크린샷 2026-03-27 192553.png)
+![시스템 다이어그램](diagram.png)
 
 
 
@@ -333,19 +330,12 @@ E-mail. sinjiue0506@naver.com
 
 
 | Term | Description |
-
 |------|:------------:|
-
 | Habit | 사용자가 반복적으로 수행하려는 행동 |
-
 | Habit Record | 특정 날짜에 수행한 습관 기록 |
-
 | Streak | 연속으로 습관을 수행한 일수 |
-
 | Statistics | 습관 수행 결과를 분석한 데이터 |
-
 | User | 프로그램을 사용하는 사용자 |
-
 | Storage | 데이터를 저장하는 시스템 |
 
 
