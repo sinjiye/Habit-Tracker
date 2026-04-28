@@ -8,30 +8,37 @@
 
 
 
-Student NO. 22421575
+Student NO: 22421575
 
-Name. 신지예
+Name: 신지예
 
-E-mail. sinjiue0506@naver.com
+E-mail: sinjiue0506@naver.com
 
-깃허브. https://github.com/sinjiye/Habit-Tracker
+깃허브: https://github.com/sinjiye/Habit-Tracker
 
 ---
-
-
-
-##Revision history
+## Revision history
 
 | Revision data | Version | Descrption | Author| 
 | :------: | :---: | :------: | :------: |
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
+| 4/28/2026 | 1.01 | 오타 수정, 목차 추가 | 신지예 |
 
 
 
 ---
+## Contents
 
 
+### 1. Business purpose
+### 2. System context diagram
+### 3. Use case list
+### 4. Concept of operation
+### 5. Problem statement
+### 6. Glossary
+### 7. References
 
+---
 ## 1. Business purpose
 
 
@@ -42,7 +49,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 1) Project background
+### 1) Project background
 
 현대 사회에서는 자기계발과 생산성 향상이 중요한 가치로 자리 잡고 있다. 특히 학생과 직장인을 포함한 많은 사람들이 학업, 운동, 독서 등 다양한 목표를 설정하고 이를 꾸준히 실천하려고 노력한다. 그러나 이러한 습관을 형성하고 유지하는 과정은 생각보다 어렵다. 초기에는 높은 의지를 가지고 시작하더라도 시간이 지남에 따라 동기부여가 감소하고, 결국 습관을 지속하지 못하는 경우가 많다.
 
@@ -54,7 +61,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 2) Goal
+### 2) Goal
 
 - 사용자의 습관을 등록하고 관리할 수 있는 시스템 제공
 - 습관 수행 여부를 기록하고 시각적으로 확인
@@ -63,7 +70,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 3) Target Market
+### 3) Target Market
 
 - 자기계발을 원하는 학생
 - 일정 및 습관 관리가 필요한 직장인
@@ -101,7 +108,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 1) Register Habit
+### 1) Register Habit
 
 
 **Actor**: User
@@ -110,7 +117,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 2) Delete Habit
+### 2) Delete Habit
 
 
 **Actor**: User
@@ -119,7 +126,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 3) View Habit List
+### 3) View Habit List
 
 
 **Actor**: User
@@ -128,7 +135,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 4) Check Habit
+### 4) Check Habit
 
 
 **Actor**: User
@@ -137,7 +144,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 5) View Statistics
+### 5) View Statistics
 
 
 **Actor**: User
@@ -146,7 +153,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 6) Save Data
+### 6) Save Data
 
 
 **Actor**: System
@@ -155,7 +162,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 7) Load Data
+### 7) Load Data
 
 
 **Actor**: System
@@ -172,7 +179,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 1) Register Habit
+### 1) Register Habit
 
 
 **Purpose**: 새로운 습관 추가
@@ -185,7 +192,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 2) Delete Habit
+### 2) Delete Habit
 
 
 **Purpose**: 기존 습관 제거
@@ -198,7 +205,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 3) View Habit List
+### 3) View Habit List
 
 
 **Purpose**: 등록된 습관 확인
@@ -211,7 +218,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 4) Check Habit
+### 4) Check Habit
 
 
 **Purpose**: 습관 수행 여부 기록
@@ -224,7 +231,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 5) View Statistics
+### 5) View Statistics
 
 
 **Purpose**: 습관 성과 확인
@@ -237,7 +244,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 6) Save Data
+### 6) Save Data
 
 
 **Purpose**: 데이터 유지
@@ -250,7 +257,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 7) Load Data
+### 7) Load Data
 
 
 **Purpose**: 데이터 복원
@@ -275,7 +282,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 1) 사용자 입력 의존성 문제
+### 1) 사용자 입력 의존성 문제
 
 습관 관리 시스템은 사용자가 직접 자신의 수행 여부를 입력해야 하는 구조를 가진다. 따라서 사용자가 기록을 누락하거나 부정확하게 입력할 경우, 시스템에서 제공하는 통계 데이터의 신뢰성이 떨어질 수 있다.
 
@@ -283,7 +290,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 2) 데이터 저장 및 손실 문제
+### 2) 데이터 저장 및 손실 문제
 
 사용자의 습관 데이터와 기록은 시스템의 핵심 요소이다. 만약 데이터 저장 과정에서 오류가 발생하거나 프로그램이 비정상적으로 종료될 경우, 데이터가 손실될 위험이 있다.
 
@@ -291,7 +298,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 3) 사용자 데이터 보안 문제
+### 3) 사용자 데이터 보안 문제
 
 습관 데이터는 개인의 생활 패턴과 관련된 정보이므로 사생활 보호 측면에서 중요하다. 만약 데이터가 외부에 노출되거나 무단으로 접근될 경우 사용자에게 불이익을 줄 수 있다.
 
@@ -299,7 +306,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 4) 사용자 지속성 문제 (동기부여 부족)
+### 4) 사용자 지속성 문제 (동기부여 부족)
 
 습관 관리 프로그램의 가장 큰 문제 중 하나는 사용자가 지속적으로 프로그램을 사용하지 않는다는 점이다. 초기에는 적극적으로 사용하더라도 시간이 지나면서 사용 빈도가 감소하는 경우가 많다.
 
@@ -307,7 +314,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 5) 시스템 확장성 및 기능 제한 문제
+### 5) 시스템 확장성 및 기능 제한 문제
 
 본 프로젝트는 비교적 간단한 규모로 설계되기 때문에, 향후 기능 확장(예: 알림 기능, 멀티 사용자 지원 등)에 제한이 있을 수 있다. 초기 설계 단계에서 구조를 잘못 설정할 경우, 기능 추가 시 코드 수정이 어려워질 수 있다.
 
@@ -315,7 +322,7 @@ E-mail. sinjiue0506@naver.com
 
 
 
-#### 6) 기술적 구현 난이도 문제
+### 6) 기술적 구현 난이도 문제
 
 개발 과정에서 파일 입출력, 날짜 처리, 통계 계산 등의 기능을 구현해야 한다. 이러한 기능은 비교적 단순해 보이지만, 실제 구현 과정에서는 다양한 예외 상황이 발생할 수 있다.
 
