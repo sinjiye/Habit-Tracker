@@ -23,7 +23,7 @@ E-mail: sinjiye0506@naver.com
 | :------: | :---: | :------: | :------: |
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
 | 4/28/2026 | 1.01 | 오타 수정, 목차 추가 | 신지예 |
-
+| 4/29/2026 | 1.02 | 로그인, 로그아웃 추가 | 신지예 |
 
 
 ---
@@ -97,7 +97,9 @@ E-mail: sinjiye0506@naver.com
 - View Statistics (통계 조회)
 - Save Data (데이터 저장)
 - Load Data (데이터 불러오기)
-
+- Register (회원 등록)
+- Log in (로그인)
+- Log out (로그아웃)
 
 
 ---
@@ -169,6 +171,32 @@ E-mail: sinjiye0506@naver.com
 
 **Description**: 저장된 데이터를 불러온다.
 
+
+
+### 8) Register
+
+
+**Actor**: User
+
+**Description**: 회원을 등록시켜준다.
+
+
+
+### 9) Log in
+
+
+**Actor**: User
+
+**Description**: 등록된 회원이 프로그램을 사용할 수 있도록 만든다.
+
+
+
+### 10) Log out
+
+
+**Actor**: User
+
+**Description**: 등록된 회원이 프로그램 사용을 종료시킨다.
 
 
 ---
@@ -251,7 +279,7 @@ E-mail: sinjiye0506@naver.com
 
 **Approach**: 사용자의 습관과 기록을 파일에 저장한다.
 
-**Dynamics**: 프로그램 종료 시
+**Dynamics**: 로그아웃 시
 
 **Goals**: 데이터 손실을 방지한다.
 
@@ -264,10 +292,48 @@ E-mail: sinjiye0506@naver.com
 
 **Approach**: 저장된 데이터를 불러와 이전 상태를 유지한다.
 
-**Dynamics**: 프로그램 실행 시
+**Dynamics**: 로그인 시
 
 **Goals**: 사용자 데이터를 유지한다.
 
+
+
+### 8) Register
+
+
+**Purpose**: 회원 등록
+
+**Approach**: 새 ID와 PW를 생성한다.
+
+**Dynamics**: 사용자가 처음 프로그램을 실행할 경우
+
+**Goals**: 로그인을 가능하게 한다.
+
+
+
+### 9) Log in
+
+
+**Purpose**: 로그인
+
+**Approach**: ID와 PW 확인 후 맞으면 시스템을 사용 가능하게 해준다.
+
+**Dynamics**: 프로그램 실행 시
+
+**Goals**: 시스템들을 사용 가능하게 한다.
+
+
+
+### 10) Log out
+
+
+**Purpose**: 로그아웃
+
+**Approach**: 시스템 사용을 종료한다
+
+**Dynamics**: 프로그램 종료 시
+
+**Goals**: 시스템 사용을 종료한다.
 
 
 ---
