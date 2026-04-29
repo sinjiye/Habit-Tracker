@@ -38,9 +38,358 @@ E-mail: sinjiye0506@naver.com
 ### 1) Use case diagram
 
 
+
 ### 2) Use case description
 
+Use Case #1 : Register
 
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+
+Use Case #2 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #3 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #4 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #5 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #6 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #7 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #8 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #9 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
+
+
+Use Case #10 : Register
+
+GENERAL CHARACTERISTICS
+|Summary||
+|-------|-----------------------------|
+|Scope||
+|Level||
+|Author||
+|Last Update||
+|Status||
+|Primary Actor||
+|Preconditions||
+|Trigger||
+|Success Post Condition||
+|Faild Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|1||
+|2||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
+
+RELATED INFORMATION
+|Performance||
+|----------|------------------------|
+|Frequency||
+|Concurrency||
+|Due Date||
 
 ## 3. Domain analysis
 
