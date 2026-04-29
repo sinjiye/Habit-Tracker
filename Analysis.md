@@ -40,7 +40,7 @@ E-mail: sinjiye0506@naver.com
 
 ### 1) Use case diagram
 
-![Use case diagram]Use case diagram.png
+![Use case diagram](Use_case_diagram.png)
 
 ### 2) Use case description
 
