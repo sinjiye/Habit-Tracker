@@ -111,16 +111,16 @@ E-mail: sinjiye0506@naver.com
 ### 1) Register Member
 
 
-**Actor**: User, Maneger
+**Actor**: User, Manager
 
-**Description**: 회원을 등록시켜준다.
+**Description**: 사용자가 시스템에 새 계정을 생성할 수 있도록 한다.
 
 
 
 ### 2) Log in
 
 
-**Actor**: User, Maneger
+**Actor**: User, Manager
 
 **Description**: 등록된 회원이 프로그램을 사용할 수 있도록 만든다.
 
@@ -129,9 +129,9 @@ E-mail: sinjiye0506@naver.com
 ### 3) Log out
 
 
-**Actor**: User, Maneger
+**Actor**: User, Manager
 
-**Description**: 등록된 회원이 프로그램 사용을 종료시킨다.
+**Description**: 등록된 회원이 프로그램 사용을 종료시킬 수 있도록 만든다.
 
 
 
@@ -141,7 +141,7 @@ E-mail: sinjiye0506@naver.com
 
 **Actor**: User
 
-**Description**: 사용자가 새로운 습관을 등록한다.
+**Description**: 사용자가 새로운 습관을 등록할 수 있도록 한다.
 
 
 
@@ -150,7 +150,7 @@ E-mail: sinjiye0506@naver.com
 
 **Actor**: User
 
-**Description**: 사용자가 기존 습관을 삭제한다.
+**Description**: 사용자가 기존 습관을 삭제할 수 있도록 한다.
 
 
 
@@ -159,7 +159,7 @@ E-mail: sinjiye0506@naver.com
 
 **Actor**: User
 
-**Description**: 등록된 습관 목록을 조회한다.
+**Description**: 등록된 습관 목록을 조회할 수 있도록 한다.
 
 
 
@@ -168,7 +168,7 @@ E-mail: sinjiye0506@naver.com
 
 **Actor**: User
 
-**Description**: 사용자가 특정 날짜의 습관 수행 여부를 체크한다.
+**Description**: 사용자가 특정 날짜의 습관 수행 여부를 체크할 수 있도록 한다.
 
 
 
@@ -177,7 +177,7 @@ E-mail: sinjiye0506@naver.com
 
 **Actor**: User
 
-**Description**: 습관의 달성률 및 연속 성공일을 확인한다.
+**Description**: 습관의 달성률 및 연속 성공일을 확인 가능하도록 한다.
 
 
 
@@ -188,7 +188,7 @@ E-mail: sinjiye0506@naver.com
 ## 4. Concept of operation
 
 
-### 1) Register Maneger
+### 1) Register Member
 
 
 **Purpose**: 회원 등록
