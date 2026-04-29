@@ -44,7 +44,7 @@ E-mail: sinjiye0506@naver.com
 
 ### 2) Use case description
 
-Use Case #1 : Register
+Use Case #1 : Register member
 
 GENERAL CHARACTERISTICS
 |Summary|사용자가 이 시스템을 처음 사용할 때 사용한다.|
@@ -155,7 +155,7 @@ EXTENSION SCENARIO
 |Step|Branching Action|
 |--------|---------------------------|
 |2|2a. 데이터 저장 과정에서 오류가 발생한 경우|
-||2a.1. 데이터 저장 중 오류가 발생했다는 메세지를 띄운다.
+||2a.1. 데이터 저장 중 오류가 발생했다는 메세지를 띄운다.|
 
 RELATED INFORMATION
 |Performance|<1Second|
@@ -168,7 +168,7 @@ RELATED INFORMATION
 Use Case #4 : Register Habit
 
 GENERAL CHARACTERISTICS
-|Summary사용자가 실천하고자 하는 새로운 습관 항목을 추가한다.|
+|Summary|사용자가 실천하고자 하는 새로운 습관 항목을 추가한다.|
 |-------|-----------------------------|
 |Scope|당신을 바꾸는 습관|
 |Level|User Level|
@@ -235,7 +235,7 @@ EXTENSION SCENARIO
 |Step|Branching Action|
 |--------|---------------------------|
 |4|4a. 사용자가 확인 메세지에서 아니오를 선택한 경우|
-||4a.1. 삭제 처리를 중단하고 팝업창을 닫으며 메인 화면으로 돌아간다.
+||4a.1. 삭제 처리를 중단하고 팝업창을 닫으며 메인 화면으로 돌아간다.|
 
 RELATED INFORMATION
 |Performance|<1Second|
@@ -305,7 +305,7 @@ MAIN SUCCESS SCENARIO
 |1|사용자가 완료한 습관의 체크박스를 누른다.|
 |2|시스템이 해당 습관의 오늘 날짜 완료 상태를 True로 변경한다.|
 |3|시스템이 해당 습관의 연속 성공일을 계산하여 1 증가시킨다.|
-|4|화면에 체크표시가 유지된다.
+|4|화면에 체크표시가 유지된다.|
 
 EXTENSION SCENARIO
 |Step|Branching Action|
@@ -365,6 +365,17 @@ RELATED INFORMATION
 ---
 
 ## 3. Domain analysis
+
+1) User
+2) Member
+3) Manager
+4) Login
+5) Database
+6) Habits
+7) Record
+8) Show_List
+9) Statistics
+10) MAIN
 
 
 
