@@ -24,6 +24,7 @@ E-mail: sinjiye0506@naver.com
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
 | 4/28/2026 | 1.01 | 오타 수정, 목차 추가 | 신지예 |
 | 4/29/2026 | 1.02 | 로그인, 로그아웃 추가 | 신지예 |
+|4/29/2026|1.03|Load Data, Save Data 삭제|신지예|
 
 
 ---
@@ -90,16 +91,14 @@ E-mail: sinjiye0506@naver.com
 
 
 
+- Register Member(회원 등록)
+- Log in (로그인)
+- Log out (로그아웃)
 - Register Habit (습관 등록)
 - Delete Habit (습관 삭제)
 - View Habit List (습관 목록 조회)
 - Check Habit (습관 수행 체크)
 - View Statistics (통계 조회)
-- Save Data (데이터 저장)
-- Load Data (데이터 불러오기)
-- Register (회원 등록)
-- Log in (로그인)
-- Log out (로그아웃)
 
 
 ---
@@ -109,8 +108,35 @@ E-mail: sinjiye0506@naver.com
 ## 3. Use case list
 
 
+### 1) Register Member
 
-### 1) Register Habit
+
+**Actor**: User, Maneger
+
+**Description**: 회원을 등록시켜준다.
+
+
+
+### 2) Log in
+
+
+**Actor**: User, Maneger
+
+**Description**: 등록된 회원이 프로그램을 사용할 수 있도록 만든다.
+
+
+
+### 3) Log out
+
+
+**Actor**: User, Maneger
+
+**Description**: 등록된 회원이 프로그램 사용을 종료시킨다.
+
+
+
+### 4) Register Habit
+
 
 
 **Actor**: User
@@ -119,7 +145,7 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 2) Delete Habit
+### 5) Delete Habit
 
 
 **Actor**: User
@@ -128,7 +154,7 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 3) View Habit List
+### 6) View Habit List
 
 
 **Actor**: User
@@ -137,7 +163,7 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 4) Check Habit
+### 7) Check Habit
 
 
 **Actor**: User
@@ -146,57 +172,13 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 5) View Statistics
+### 8) View Statistics
 
 
 **Actor**: User
 
 **Description**: 습관의 달성률 및 연속 성공일을 확인한다.
 
-
-
-### 6) Save Data
-
-
-**Actor**: System
-
-**Description**: 사용자의 습관 및 기록 데이터를 저장한다.
-
-
-
-### 7) Load Data
-
-
-**Actor**: System
-
-**Description**: 저장된 데이터를 불러온다.
-
-
-
-### 8) Register
-
-
-**Actor**: User
-
-**Description**: 회원을 등록시켜준다.
-
-
-
-### 9) Log in
-
-
-**Actor**: User
-
-**Description**: 등록된 회원이 프로그램을 사용할 수 있도록 만든다.
-
-
-
-### 10) Log out
-
-
-**Actor**: User
-
-**Description**: 등록된 회원이 프로그램 사용을 종료시킨다.
 
 
 ---
@@ -206,99 +188,7 @@ E-mail: sinjiye0506@naver.com
 ## 4. Concept of operation
 
 
-
-### 1) Register Habit
-
-
-**Purpose**: 새로운 습관 추가
-
-**Approach**: 사용자가 습관 이름과 설명을 입력하면 시스템에 저장한다.
-
-**Dynamics**: 사용자가 새로운 목표를 설정할 경우
-
-**Goals**: 사용자가 원하는 습관을 등록할 수 있도록 한다.
-
-
-
-### 2) Delete Habit
-
-
-**Purpose**: 기존 습관 제거
-
-**Approach**: 사용자가 선택한 습관을 시스템에서 삭제한다.
-
-**Dynamics**: 사용자가 더 이상 필요 없는 습관을 제거할 경우
-
-**Goals**: 불필요한 습관을 관리할 수 있도록 한다.
-
-
-
-### 3) View Habit List
-
-
-**Purpose**: 등록된 습관 확인
-
-**Approach**: 사용자가 등록한 모든 습관을 리스트 형태로 보여준다.
-
-**Dynamics**: 사용자가 자신의 습관을 확인하고 싶을 경우
-
-**Goals**: 현재 관리 중인 습관을 한눈에 확인할 수 있도록 한다.
-
-
-
-### 4) Check Habit
-
-
-**Purpose**: 습관 수행 여부 기록
-
-**Approach**: 사용자가 날짜별로 습관 수행 여부를 체크하면 기록이 저장된다.
-
-**Dynamics**: 사용자가 하루 습관을 완료했을 경우
-
-**Goals**: 습관 수행 여부를 정확하게 기록한다.
-
-
-
-### 5) View Statistics
-
-
-**Purpose**: 습관 성과 확인
-
-**Approach**: 습관 수행 기록을 기반으로 달성률과 연속 성공일을 계산한다.
-
-**Dynamics**: 사용자가 자신의 성과를 확인하고 싶을 경우
-
-**Goals**: 사용자에게 동기부여를 제공한다.
-
-
-
-### 6) Save Data
-
-
-**Purpose**: 데이터 유지
-
-**Approach**: 사용자의 습관과 기록을 파일에 저장한다.
-
-**Dynamics**: 로그아웃 시
-
-**Goals**: 데이터 손실을 방지한다.
-
-
-
-### 7) Load Data
-
-
-**Purpose**: 데이터 복원
-
-**Approach**: 저장된 데이터를 불러와 이전 상태를 유지한다.
-
-**Dynamics**: 로그인 시
-
-**Goals**: 사용자 데이터를 유지한다.
-
-
-
-### 8) Register
+### 1) Register Maneger
 
 
 **Purpose**: 회원 등록
@@ -311,7 +201,7 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 9) Log in
+### 2) Log in
 
 
 **Purpose**: 로그인
@@ -324,7 +214,7 @@ E-mail: sinjiye0506@naver.com
 
 
 
-### 10) Log out
+### 3) Log out
 
 
 **Purpose**: 로그아웃
@@ -334,6 +224,72 @@ E-mail: sinjiye0506@naver.com
 **Dynamics**: 프로그램 종료 시
 
 **Goals**: 시스템 사용을 종료한다.
+
+
+
+### 4) Register Habit
+
+
+**Purpose**: 새로운 습관 추가
+
+**Approach**: 사용자가 습관 이름과 설명을 입력하면 시스템에 저장한다.
+
+**Dynamics**: 사용자가 새로운 목표를 설정할 경우
+
+**Goals**: 사용자가 원하는 습관을 등록할 수 있도록 한다.
+
+
+
+### 5) Delete Habit
+
+
+**Purpose**: 기존 습관 제거
+
+**Approach**: 사용자가 선택한 습관을 시스템에서 삭제한다.
+
+**Dynamics**: 사용자가 더 이상 필요 없는 습관을 제거할 경우
+
+**Goals**: 불필요한 습관을 관리할 수 있도록 한다.
+
+
+
+### 6) View Habit List
+
+
+**Purpose**: 등록된 습관 확인
+
+**Approach**: 사용자가 등록한 모든 습관을 리스트 형태로 보여준다.
+
+**Dynamics**: 사용자가 자신의 습관을 확인하고 싶을 경우
+
+**Goals**: 현재 관리 중인 습관을 한눈에 확인할 수 있도록 한다.
+
+
+
+### 7) Check Habit
+
+
+**Purpose**: 습관 수행 여부 기록
+
+**Approach**: 사용자가 날짜별로 습관 수행 여부를 체크하면 기록이 저장된다.
+
+**Dynamics**: 사용자가 하루 습관을 완료했을 경우
+
+**Goals**: 습관 수행 여부를 정확하게 기록한다.
+
+
+
+### 8) View Statistics
+
+
+**Purpose**: 습관 성과 확인
+
+**Approach**: 습관 수행 기록을 기반으로 달성률과 연속 성공일을 계산한다.
+
+**Dynamics**: 사용자가 자신의 성과를 확인하고 싶을 경우
+
+**Goals**: 사용자에게 동기부여를 제공한다.
+
 
 
 ---
