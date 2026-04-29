@@ -13,6 +13,8 @@ E-mail: sinjiye0506@naver.com
 |------|---|-------|------|
 |||||
 
+---
+
 ## Contents
 
 ### 1. Introduction
@@ -22,7 +24,7 @@ E-mail: sinjiye0506@naver.com
 ### 5. Glossary
 ### 6. References
 
-
+---
 
 ## 1. Introduction
 
@@ -32,6 +34,7 @@ E-mail: sinjiye0506@naver.com
 ### 2) Goals
 '당신을 바꾸는 습관'은 사용자의 습관 형성을 돕는 것이 목적이다. 꾸준히 실행할 수 있도록 통계를 보여주며 동기를 부여해준다. 다양한 사용자들이 사용하기 쉬운 인터페이스로 진입장벽은 낮추고 사용자들의 만족도는 높일 것이다.
 
+---
 
 ## 2. Use case analysis
 
@@ -359,6 +362,8 @@ RELATED INFORMATION
 |Concurrency|None|
 |Due Date|2026-05-01|
 
+---
+
 ## 3. Domain analysis
 
 
@@ -369,7 +374,8 @@ RELATED INFORMATION
 
 ## 5. Grossary
 
-
+메인 화면: 시스템에 처음 접속하였을 때 볼 수 있는 화면이다. 습관 리스트를 볼 수 있다.
+데이터베이스: 사용자들의 회원 정보와 습관 데이터들이 저장되어 있는 곳이다.
 
 ## 6. References
 
