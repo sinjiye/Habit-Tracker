@@ -12,7 +12,7 @@ Student NO: 22421575
 
 Name: 신지예
 
-E-mail: sinjiue0506@naver.com
+E-mail: sinjiye0506@naver.com
 
 깃허브: https://github.com/sinjiye/Habit-Tracker
 
