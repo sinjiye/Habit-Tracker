@@ -58,7 +58,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|시스템이 실행되어 있어야 한다.|
 |Trigger|메인 화면에서 회원가입 버튼을 누른 경우|
 |Success Post Condition|회원가입이 완료되어 로그인 창이 뜬다.|
-|Faild Post Condidtion|회원가입이 되지 않는다.|
+|Failed Post Condidtion|회원가입이 되지 않는다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -101,7 +101,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|시스템이 실행되어 있어야 한다. 그리고 회원가입이 되어있어야 한다.|
 |Trigger|로그인 버튼을 누른다.|
 |Success Post Condition|저장되어 있는 회원임이 인증되어서 시스템을 사용할 수 있다.|
-|Faild Post Condidtion|로그인 실패 메세지가 출력되고 로그인 창으로 돌아간다.|
+|Failed Post Condidtion|로그인 실패 메세지가 출력되고 로그인 창으로 돌아간다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -141,7 +141,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인이 된 상태여야 한다.|
 |Trigger|로그아웃 버튼을 클릭한다.|
 |Success Post Condition|현재 데이터가 안전하게 저장되고 로그인 화면으로 돌아간다.|
-|Faild Post Condidtion|로그아웃 처리 되지 않고 현재 화면이 유지된다.|
+|Failed Post Condidtion|로그아웃 처리 되지 않고 현재 화면이 유지된다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -179,7 +179,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인이 된 상태여야 한다.|
 |Trigger|습관 관리 화면에서 '습관 추가'버튼을 누른다.|
 |Success Post Condition|새로운 습관이 리스트에 추가되고 화면에 표시된다.|
-|Faild Post Condidtion|습관 추가가 취소되거나 오류 메세지가 뜬다.|
+|Failed Post Condidtion|습관 추가가 취소되거나 오류 메세지가 뜬다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -219,7 +219,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인 상태이며, 삭제하고자 하는 습관이 목록에 존재해야 한다.|
 |Trigger|삭제 버튼을 누른다.|
 |Success Post Condition|해당 습관 정보와 그동안의 수행 기록 데이터가 시스템에서 제거된다.|
-|Faild Post Condidtion|데이터가 삭제되지 않고 기존 목록이 그대로 유지된다.|
+|Failed Post Condidtion|데이터가 삭제되지 않고 기존 목록이 그대로 유지된다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -259,7 +259,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 시스템에 로그인되어 있어야 한다.|
 |Trigger|로그인 직후 메인 대시보드에 진입하거나, 다른 메뉴에서 메인 화면으로 돌아올 때 실행된다.|
 |Success Post Condition|등록된 모든 습관의 이름, 간단한 설명, 오늘의 체크 상태가 화면에 출력된다.|
-|Faild Post Condidtion|목록을 불러오는데 실패했다는 에러 메세지가 표시되거나 빈 화면이 나타난다.|
+|Failed Post Condidtion|목록을 불러오는데 실패했다는 에러 메세지가 표시되거나 빈 화면이 나타난다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -297,7 +297,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|로그인 상태이며, 등록된 습관 목록이 화면에 출력되어야 한다.|
 |Trigger|습관 항목 옆의 체크박스를 클릭한다.|
 |Success Post Condition|해당 날짜의 수행기록이 업데이트되고 연속 성공일이 갱신된다.|
-|Faild Post Condidtion|체크 상태가 반영되지 않는다|
+|Failed Post Condidtion|체크 상태가 반영되지 않는다|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -335,7 +335,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|수행 기록 데이터가 존재해야 한다.|
 |Trigger|메뉴에서 분석 버튼을 누른다.|
 |Success Post Condition|달성률 그래프와 최대 연속 성공일 등의 수치가 출력된다.|
-|Faild Post Condidtion|데이터가 없거나 분석 오류 메세지가 뜬다.|
+|Failed Post Condidtion|데이터가 없거나 분석 오류 메세지가 뜬다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -402,7 +402,7 @@ RELATED INFORMATION
 
 
 
-## 5. Grossary
+## 5. Glossary
 
 메인 화면: 시스템에 처음 접속하였을 때 볼 수 있는 화면이다. 습관 리스트를 볼 수 있다.
 데이터베이스: 사용자들의 회원 정보와 습관 데이터들이 저장되어 있는 곳이다.
