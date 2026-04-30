@@ -10,7 +10,7 @@ E-mail: sinjiye0506@naver.com
 
 ## Revision history
 |Revision date|Version #|Description|Author|
-|------|---|-------|------|
+|:------:|:---:|:-------:|:------:|
 |||||
 
 ---
