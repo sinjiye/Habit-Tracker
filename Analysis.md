@@ -366,16 +366,35 @@ RELATED INFORMATION
 
 ## 3. Domain analysis
 
-1) User
+1)User
+사용자 클래스다. Memder와 Manager가 공통으로 갖는 요소들(ID, PW, 닉네임 등)을 정의하는 클래스이다.
+
 2) Member
-3) Manager
-4) Login
-5) Database
-6) Habits
-7) Record
-8) Show_List
-9) Statistics
-10) MAIN
+멤버 클래스다. 사용자의 기능들을 사용할 수 있고 그 외에 습관을 관리하는 기능들도 사용할 수 있는 클래스이다.
+
+4) Manager
+관리자 클래스다. 사용자의 기능들을 사용할 수 있고 추가로 멤버를 관리하는 기능도 사용할 수 있는 클래스이다.
+
+5) Login
+로그인 클래스다. 시스템을 사용 가능하게 해주는 클래스이다. 시스템에 접근하는 사용자가 누구인지 판별하고 그 결과를 시스템에 알려준다.
+
+7) Database
+데이터베이스 클래스다. 유일하게 사용자 데이터에 접근할 수 있는 클래스이다.
+
+9) Habits
+습관 클래스다. 사용자가 관리하는 습관에 대한 클래스이다.
+
+11) Record
+수행 기록 클래스다. 각 습관을 언제 수행했는지에 대한 데이터를 저장하는 클래스이다.
+
+12) Show_List
+조회 클래스다. 현재 있는 습관들을 띄워주는 클래스이다.
+
+14) Statistics
+분석 클래스다. 습관들의 달성률과 연속 성공일을 보여주는 클래스이다.
+
+15) MAIN
+메인 클래스다. 시스템의 모든 과정이 시행되는 클래스이다.
 
 
 
@@ -390,4 +409,5 @@ RELATED INFORMATION
 
 ## 6. References
 
+Analysis with examples 파일
 
