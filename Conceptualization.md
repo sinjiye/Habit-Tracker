@@ -361,7 +361,7 @@ E-mail: sinjiye0506@naver.com
 
 
 | Term | Description |
-|------|:------------:|
+|------|-------------|
 | Habit | 사용자가 반복적으로 수행하려는 행동 |
 | Habit Record | 특정 날짜에 수행한 습관 기록 |
 | Streak | 연속으로 습관을 수행한 일수 |
