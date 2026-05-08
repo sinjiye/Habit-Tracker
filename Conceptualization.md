@@ -24,7 +24,8 @@ E-mail: sinjiye0506@naver.com
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
 | 4/28/2026 | 1.01 | 오타 수정, 목차 추가 | 신지예 |
 | 4/29/2026 | 1.02 | 로그인, 로그아웃 추가 | 신지예 |
-|4/29/2026|1.03|Load Data, Save Data 삭제|신지예|
+| 4/29/2026 | 1.03 | Load Data, Save Data 삭제 | 신지예 |
+| 5/8/2026 | 1.04 | Manage Member 추가 | 신지예 |
 
 
 ---
@@ -99,6 +100,7 @@ E-mail: sinjiye0506@naver.com
 - View Habit List (습관 목록 조회)
 - Check Habit (습관 수행 체크)
 - View Statistics (통계 조회)
+- Manage Member (회원 관리)
 
 
 ---
@@ -178,6 +180,15 @@ E-mail: sinjiye0506@naver.com
 **Actor**: User
 
 **Description**: 습관의 달성률 및 연속 성공일을 확인 가능하도록 한다.
+
+
+
+### 9) Manage Member
+
+
+**Actor**: Manager
+
+**Description**: 회원들의 정보를 관리할 수 있도록 한다.
 
 
 
@@ -289,6 +300,19 @@ E-mail: sinjiye0506@naver.com
 **Dynamics**: 사용자가 자신의 성과를 확인하고 싶을 경우
 
 **Goals**: 사용자에게 동기부여를 제공한다.
+
+
+
+### 9) Manage Member
+
+
+**Purpose**: 회원 관리
+
+**Approach**: 회원들의 정보를 관리한다.
+
+**Dynamics**: 회원의 정보를 추가, 수정, 삭제, 확인하고 싶을 경우
+
+**Goals**: 괸리자가 회원들의 정보를 관리할 수 있도록 한다.
 
 
 
