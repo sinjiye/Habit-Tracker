@@ -229,7 +229,7 @@ GENERAL CHARACTERISTICS
 |Scope|당신을 바꾸는 습관|
 |Level|User Level|
 |Author|신지예|
-|Last Update|2026-04-29|
+|Last Update|2026-05-07|
 |Status|Analysis|
 |Primary Actor|User|
 |Preconditions|사용자가 로그인 상태여야 한다.|
@@ -271,27 +271,26 @@ GENERAL CHARACTERISTICS
 |Scope|당신을 바꾸는 습관|
 |Level|User Level|
 |Author|신지예|
-|Last Update|2026-04-29|
+|Last Update|2026-05-08|
 |Status|Analysis|
 |Primary Actor|User|
 |Preconditions|사용자가 시스템에 로그인되어 있어야 한다.|
-|Trigger|로그인 직후 메인 대시보드에 진입하거나, 다른 메뉴에서 메인 화면으로 돌아올 때 실행된다.|
+|Trigger|로그인 직후 메인 화면에 진입하거나, 다른 메뉴에서 메인 화면으로 돌아올 때 실행된다.|
 |Success Post Condition|등록된 모든 습관의 이름, 간단한 설명, 오늘의 체크 상태가 화면에 출력된다.|
 |Failed Post Condidtion|목록을 불러오는데 실패했다는 에러 메세지가 표시되거나 빈 화면이 나타난다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
 |-------|----------------------------|
-|1|시스템이 현재 로그인된 사용자의 ID를 식별한다.|
-|2|시스템이 저장소로부터 해당 사용자의 습관 데이터를 읽어온다.|
-|3|시스템이 오늘 날짜를 기준으로 각 습관의 수행 여부를 조회한다.|
-|4|시스템이 습관 목록을 리스트 형태의 UI로 구성하여 화면에 렌더링한다.|
+|1|시스템이 불러온 데이터 중에서 습관들의 정보를 가져온다.|
+|2|시스템이 오늘 날짜를 기준으로 각 습관의 수행 여부를 조회한다.|
+|3|시스템이 습관 목록을 리스트 형태의 UI로 구성하여 화면에 렌더링한다.|
 
 EXTENSION SCENARIO
 |Step|Branching Action|
 |--------|---------------------------|
-|2|2a. 등록된 습관 데이터가 하나도 없는 신규 사용자인 경우|
-||등록된 문구가 없다는 안내 문구를 대신 표시한다.|
+|1|1a. 등록된 습관 데이터가 하나도 없는 신규 사용자인 경우|
+||1a.1. 등록된 문구가 없다는 안내 문구를 대신 표시한다.|
 
 RELATED INFORMATION
 |Performance|<2Seconds|
@@ -309,10 +308,10 @@ GENERAL CHARACTERISTICS
 |Scope|당신을 바꾸는 습관 |
 |Level|User Level|
 |Author|신지예|
-|Last Update|2026-04-29|
+|Last Update|2026-05-08|
 |Status|Analysis|
 |Primary Actor|User|
-|Preconditions|로그인 상태이며, 등록된 습관 목록이 화면에 출력되어야 한다.|
+|Preconditions|로그인 상태이며, 등록된 습관 목록이 화면에 출력되어 있어야 한다.|
 |Trigger|습관 항목 옆의 체크박스를 클릭한다.|
 |Success Post Condition|해당 날짜의 수행기록이 업데이트되고 연속 성공일이 갱신된다.|
 |Failed Post Condidtion|체크 상태가 반영되지 않는다|
@@ -372,6 +371,40 @@ EXTENSION SCENARIO
 |3|3a. 연속 성공일 추출에 실패할 경우|
 ||3a.1. 연속 성공일 추출에 실패했다는 메세지를 띄운다.|
 ||3a.2. 메인 화면으로 돌아간다.|
+
+RELATED INFORMATION
+|Performance|<3Seconds|
+|----------|------------------------|
+|Frequency|None|
+|Concurrency|None|
+|Due Date|2026-05-08|
+
+
+Use Case #9 : Manage Member
+
+GENERAL CHARACTERISTICS
+|Summary|회원의 정보를 관리한다.|
+|-------|-----------------------------|
+|Scope|당신을 바꾸는 습관|
+|Level|User Level|
+|Author|신지예|
+|Last Update|2026-05-08|
+|Status|Analysis|
+|Primary Actor|Mamager|
+|Preconditions|로그인이 되어있어야 한다.|
+|Trigger||
+|Success Post Condition||
+|Failed Post Condidtion||
+
+MAIN SUCCESS SCENARIO
+|Step|Action|
+|-------|----------------------------|
+|||
+
+EXTENSION SCENARIO
+|Step|Branching Action|
+|--------|---------------------------|
+|||
 
 RELATED INFORMATION
 |Performance|<3Seconds|
