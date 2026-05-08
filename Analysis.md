@@ -346,11 +346,11 @@ GENERAL CHARACTERISTICS
 |Scope|당신을 바꾸는 습관|
 |Level|User Level|
 |Author|신지예|
-|Last Update|2026-04-29|
+|Last Update|2026-05-08|
 |Status|Analysis|
 |Primary Actor|User|
-|Preconditions|수행 기록 데이터가 존재해야 한다.|
-|Trigger|메뉴에서 분석 버튼을 누른다.|
+|Preconditions|로그인이 되어있어야 한다.|
+|Trigger|메뉴에서 분석 버튼을 클릭한 경우|
 |Success Post Condition|달성률 그래프와 최대 연속 성공일 등의 수치가 출력된다.|
 |Failed Post Condidtion|데이터가 없거나 분석 오류 메세지가 뜬다.|
 
@@ -368,6 +368,8 @@ EXTENSION SCENARIO
 |2|2a. 달성률 계산에 실패할 경우|
 ||2a.1. 달성률 계산에 실패했다는 메세지를 띄운다.|
 ||2a.2. 메인 화면으로 돌아간다.|
+||2b. 사용자의 습관 달성에 대한 데이터가 없을 경우|
+||2b.1. 데이터가 존재하지 않는다는 메세지를 출력한다.|
 |3|3a. 연속 성공일 추출에 실패할 경우|
 ||3a.1. 연속 성공일 추출에 실패했다는 메세지를 띄운다.|
 ||3a.2. 메인 화면으로 돌아간다.|
@@ -392,19 +394,25 @@ GENERAL CHARACTERISTICS
 |Status|Analysis|
 |Primary Actor|Mamager|
 |Preconditions|로그인이 되어있어야 한다.|
-|Trigger||
-|Success Post Condition||
-|Failed Post Condidtion||
+|Trigger|회원 관리 버튼을 클릭한 경우|
+|Success Post Condition|존재하는 회원들의 정보 리스트가 뜨고 이를 추가, 수정, 삭제할 수 있다.|
+|Failed Post Condidtion|정보 조회에 실패했다는 메세지와 함께 이전 페이지로 돌아간다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
 |-------|----------------------------|
-|||
+|1|관리자가 회원 관리 버튼을 클릭한다.|
+|2|시스템이 회원 정보를 모두 불러온다.|
+|3|불러온 정보들을 표로 만들어 보여준다.|
 
 EXTENSION SCENARIO
 |Step|Branching Action|
 |--------|---------------------------|
-|||
+|2|2a. 회원 정보 불러오는 것을 실패했을 경우|
+||2a.1. 회원 정보 불러오는 것을 실패했다는 메세지를 띄워준다.|
+||2a.2. 이전 페이지로 돌아간다.|
+||2b. 회원 정보가 존재하지 않을 경우|
+||2b.1. 회원 정보가 존재하지 않는다는 메세지를 출력한다.
 
 RELATED INFORMATION
 |Performance|<3Seconds|
