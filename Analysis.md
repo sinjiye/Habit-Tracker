@@ -470,28 +470,47 @@ RELATED INFORMATION
 ## 4. User Interface prototype
 
 ![로그인 UI](로그인UI.png)
+
 이 사진은 시스템을 작동시키고 처음 나오는 화면이다. 로그인을 위한 UI이다. ID와 PW를 입력하는 칸이 있다. 여기서 있는 회원가입을 누르면 회원가입 화면으로 이동한다.
 
 ![회원가입 UI](회원가입UI.png)
+
 회원가입 화면이다. ID와 PW를 입력하는 칸이 있고, PW를 다시 한번 확인하는 칸도 있다.
 
 ![메인화면 UI](메인화면UI.png)
+
 습관 목록이 보이는 화면이다. 수행한 습관을 여기서 체크할 수 있다. 또한 연속으로 몇일동안 수행했는지도 알려준다. 아래 메뉴 바에 습관을 추가하는 버튼과 분석을 확인할 수 있는 아이콘도 있다.
 
 ![습관추가 UI](습관추가UI.png)
+
 습관 추가를 위한 화면이다. 습관의 이름과 설명을 적는 칸이 있다.
 
 ![분석 UI](분석UI.png)
+
 습관 분석의 결과를 보여주는 화면이다. 연속 성공일과 평군 성공률과 오늘 수행한 습관의 개수를 알려주고 있다. 그리고 습관별 달성률이 있다.
 
 
 ## 5. Glossary
 
-메인 화면: 시스템에 처음 접속하였을 때 볼 수 있는 화면이다. 습관 리스트를 볼 수 있다.
+| Term | Description |
+|------|-------------|
+| Habit | 사용자가 반복적으로 수행하려는 행동 |
+| Habit Record | 특정 날짜에 수행한 습관 기록 |
+| Streak | 연속으로 습관을 수행한 일수 |
+| Statistics | 습관 수행 결과를 분석한 데이터 |
+| User | 프로그램을 사용하는 사용자 |
+| Storage | 데이터를 저장하는 시스템 |
+| 메인화면 | 시스템에 처음 접속하였을 때 볼 수 있는 화면이다. 습관 리스트를 볼 수 있다. |
+| 데이터베이스 | 사용자들의 회원 정보와 습관 데이터들이 저장되어 있는 곳이다. |
 
-데이터베이스: 사용자들의 회원 정보와 습관 데이터들이 저장되어 있는 곳이다.
 
 ## 6. References
 
-Analysis with examples 파일
-
+2. [Analysis] Example 1
+2. [Analysis] Example 2
+2. [Analysis] Example 3
+2. [Analysis] Example 4
+2. [Analysis] Example 5
+2. [Analysis] Example 6
+2. [Analysis] Example 7
+2. [Analysis] Example 8
