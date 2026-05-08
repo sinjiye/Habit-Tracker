@@ -8,6 +8,8 @@ Name: 신지예
 
 E-mail: sinjiye0506@naver.com
 
+깃허브: https://github.com/sinjiye/Habit-Tracker
+
 ## Revision history
 |Revision date|Version #|Description|Author|
 |:------:|:---:|:-------:|:------:|
