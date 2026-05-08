@@ -509,11 +509,11 @@ RELATED INFORMATION
 
 ## 6. References
 
-2. [Analysis] Example 1
-2. [Analysis] Example 2
-2. [Analysis] Example 3
-2. [Analysis] Example 4
-2. [Analysis] Example 5
-2. [Analysis] Example 6
-2. [Analysis] Example 7
-2. [Analysis] Example 8
+[Analysis] Example 1
+[Analysis] Example 2
+[Analysis] Example 3
+[Analysis] Example 4
+[Analysis] Example 5
+[Analysis] Example 6
+[Analysis] Example 7
+[Analysis] Example 8
