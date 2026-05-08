@@ -143,7 +143,7 @@ GENERAL CHARACTERISTICS
 |Author|신지예|
 |Last Update|2026-04-29|
 |Status|Analysis|
-|Primary Actor|User, Maneger|
+|Primary Actor|User, Manager|
 |Preconditions|사용자가 로그인이 된 상태여야 한다.|
 |Trigger|로그아웃 버튼을 클릭한 경우|
 |Success Post Condition|현재 데이터가 안전하게 저장되고 로그인 화면으로 돌아간다.|
@@ -321,7 +321,7 @@ MAIN SUCCESS SCENARIO
 |-------|----------------------------|
 |1|사용자가 완료한 습관의 체크박스를 누른다.|
 |2|시스템이 해당 습관의 오늘 날짜 완료 상태를 True로 변경한다.|
-|3|시스템이 해당 습관의 연속 성공일을 계산하여 1 증가시킨다.|
+|3|시스템이 해당 습관의 연속 성공일을 1 증가시킨다.|
 |4|화면에 체크표시가 유지된다.|
 
 EXTENSION SCENARIO
@@ -388,11 +388,11 @@ GENERAL CHARACTERISTICS
 |Summary|회원의 정보를 관리한다.|
 |-------|-----------------------------|
 |Scope|당신을 바꾸는 습관|
-|Level|User Level|
+|Level|Manager Level|
 |Author|신지예|
 |Last Update|2026-05-08|
 |Status|Analysis|
-|Primary Actor|Mamager|
+|Primary Actor|Manager|
 |Preconditions|로그인이 되어있어야 한다.|
 |Trigger|회원 관리 버튼을 클릭한 경우|
 |Success Post Condition|존재하는 회원들의 정보 리스트가 뜨고 이를 추가, 수정, 삭제할 수 있다.|
@@ -427,7 +427,7 @@ RELATED INFORMATION
 
 ### 1) User
 
-사용자 클래스다. Memder와 Manager가 공통으로 갖는 요소들(ID, PW, 닉네임 등)을 정의하는 클래스이다.
+사용자 클래스다. Member와 Manager가 공통으로 갖는 요소들(ID, PW, 닉네임 등)을 정의하는 클래스이다.
 
 ### 2) Member
 
