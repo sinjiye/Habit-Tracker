@@ -13,7 +13,7 @@ E-mail: sinjiye0506@naver.com
 ## Revision history
 |Revision date|Version #|Description|Author|
 |:------:|:---:|:-------:|:------:|
-|||||
+| 5/8/2026 | 1.00 | 초안 | 신지예 |
 
 ---
 
