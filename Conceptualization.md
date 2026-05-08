@@ -19,7 +19,7 @@ E-mail: sinjiye0506@naver.com
 ---
 ## Revision history
 
-| Revision data | Version | Descrption | Author| 
+| Revision date | Version | Description | Author| 
 | :------: | :---: | :------: | :------: |
 | 3/27/2026 | 1.00 | 초안 | 신지예 |
 | 4/28/2026 | 1.01 | 오타 수정, 목차 추가 | 신지예 |
@@ -230,7 +230,7 @@ E-mail: sinjiye0506@naver.com
 
 **Purpose**: 로그아웃
 
-**Approach**: 시스템 사용을 종료한다
+**Approach**: 시스템 사용을 종료한다.
 
 **Dynamics**: 프로그램 종료 시
 
@@ -312,7 +312,7 @@ E-mail: sinjiye0506@naver.com
 
 **Dynamics**: 회원의 정보를 추가, 수정, 삭제, 확인하고 싶을 경우
 
-**Goals**: 리자가 회원들의 정보를 관리할 수 있도록 한다.
+**Goals**: 관리자가 회원들의 정보를 관리할 수 있도록 한다.
 
 
 
