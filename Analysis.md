@@ -10,6 +10,7 @@ E-mail: sinjiye0506@naver.com
 
 깃허브: https://github.com/sinjiye/Habit-Tracker
 
+
 ## Revision history
 |Revision date|Version #|Description|Author|
 |:------:|:---:|:-------:|:------:|
@@ -31,7 +32,7 @@ E-mail: sinjiye0506@naver.com
 ## 1. Introduction
 
 ### 1) Summary
-현대 사회에서 많은 사람들을 자기계발을 위해 다양한 습관을 형성하려고 노력한다. 하지만 습관을 지속적으로 유지하고 관리하는 것은 쉽지 않으며, 이를 체계적으로 쉽게 기록하고 분석하는 도구가 부족한 경우도 있다. 이에 따라 본 프로젝트에서는 사용자가 자신의 습관을 등록하고, 수행 여부를 기록하며, 이를 기반으로 통계를 확인할 수 있는 '당신을 바꾸는 습관'을 개발하고자 한다.
+현대 사회에서 많은 사람들 자기계발을 위해 다양한 습관을 형성하려고 노력한다. 하지만 습관을 지속적으로 유지하고 관리하는 것은 쉽지 않으며, 이를 체계적으로 쉽게 기록하고 분석하는 도구가 부족한 경우도 있다. 이에 따라 본 프로젝트에서는 사용자가 자신의 습관을 등록하고, 수행 여부를 기록하며, 이를 기반으로 통계를 확인할 수 있는 '당신을 바꾸는 습관'을 개발하고자 한다.
 
 ### 2) Goals
 '당신을 바꾸는 습관'은 사용자의 습관 형성을 돕는 것이 목적이다. 꾸준히 실행할 수 있도록 통계를 보여주며 동기를 부여해준다. 다양한 사용자들이 사용하기 쉬운 인터페이스로 진입장벽은 낮추고 사용자들의 만족도는 높일 것이다.
@@ -60,7 +61,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|시스템이 실행되어 있어야 한다.|
 |Trigger|메인 화면에서 회원가입 버튼을 누른 경우|
 |Success Post Condition|회원가입이 완료되어 회원 정보가 데이터 베이스에 저장되고 로그인 창이 뜬다.|
-|Failed Post Condidtion|회원가입이 되지 않는다.|
+|Failed Post Condition|회원가입이 되지 않는다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -104,7 +105,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|회원가입이 되어있는 상태여야 한다.|
 |Trigger|로그인 버튼을 클릭한 경우|
 |Success Post Condition|저장되어 있는 회원임이 인증되어서 시스템을 사용할 수 있다.|
-|Failed Post Condidtion|회원 인증에 실패하여 로그인 실패 메세지가 출력되고 로그인 창으로 돌아간다.|
+|Failed Post Condition|회원 인증에 실패하여 로그인 실패 메세지가 출력되고 로그인 창으로 돌아간다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -149,7 +150,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인이 된 상태여야 한다.|
 |Trigger|로그아웃 버튼을 클릭한 경우|
 |Success Post Condition|현재 데이터가 안전하게 저장되고 로그인 화면으로 돌아간다.|
-|Failed Post Condidtion|로그아웃 처리 되지 않고 현재 화면이 유지된다.|
+|Failed Post Condition|로그아웃 처리 되지 않고 현재 화면이 유지된다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -157,7 +158,7 @@ MAIN SUCCESS SCENARIO
 |1|사용자가 로그아웃 버튼을 누른다.|
 |2|시스템이 현재까지 변경사항이 있는지 확인한다.|
 |3|시스템이 사용자 세션을 종료한다.|
-|4|로그인 화면으로 이동한다.
+|4|로그인 화면으로 이동한다.|
 
 EXTENSION SCENARIO
 |Step|Branching Action|
@@ -190,7 +191,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인이 된 상태여야 한다.|
 |Trigger|습관 관리 화면에서 '습관 추가'버튼을 클릭한 경우|
 |Success Post Condition|새로운 습관이 리스트에 추가되고 화면에 표시된다.|
-|Failed Post Condidtion|습관 추가가 취소되거나 오류 메세지가 뜬다.|
+|Failed Post Condition|습관 추가가 취소되거나 오류 메세지가 뜬다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -200,7 +201,7 @@ MAIN SUCCESS SCENARIO
 |3|사용자가 습관 이름과 상세 설명을 입력한다.|
 |4|사용자가 저장 버튼을 누른다.|
 |5|시스템이 입력값의 유효성을 검사한다.|
-|6|데이터 베이스에 새로운 데이터를 추가한다.|
+|6|데이터베이스에 새로운 데이터를 추가한다.|
 |7|습관 목록 객체에 새로운 데이터를 추가한다.|
 |8|메인 화면을 띄운다.|
 
@@ -237,7 +238,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 로그인 상태여야 한다.|
 |Trigger|삭제 버튼을 클릭한 경우|
 |Success Post Condition|해당 습관 정보와 그동안의 수행 기록 데이터가 시스템에서 제거된다.|
-|Failed Post Condidtion|데이터가 삭제되지 않고 기존 목록이 그대로 유지된다.|
+|Failed Post Condition|데이터가 삭제되지 않고 기존 목록이 그대로 유지된다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -279,7 +280,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|사용자가 시스템에 로그인되어 있어야 한다.|
 |Trigger|로그인 직후 메인 화면에 진입하거나, 다른 메뉴에서 메인 화면으로 돌아올 때 실행된다.|
 |Success Post Condition|등록된 모든 습관의 이름, 간단한 설명, 오늘의 체크 상태가 화면에 출력된다.|
-|Failed Post Condidtion|목록을 불러오는데 실패했다는 에러 메세지가 표시되거나 빈 화면이 나타난다.|
+|Failed Post Condition|목록을 불러오는데 실패했다는 에러 메세지가 표시되거나 빈 화면이 나타난다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -316,7 +317,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|로그인 상태이며, 등록된 습관 목록이 화면에 출력되어 있어야 한다.|
 |Trigger|습관 항목 옆의 체크박스를 클릭한다.|
 |Success Post Condition|해당 날짜의 수행기록이 업데이트되고 연속 성공일이 갱신된다.|
-|Failed Post Condidtion|체크 상태가 반영되지 않는다|
+|Failed Post Condition|체크 상태가 반영되지 않는다|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -354,7 +355,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|로그인이 되어있어야 한다.|
 |Trigger|메뉴에서 분석 버튼을 클릭한 경우|
 |Success Post Condition|달성률 그래프와 최대 연속 성공일 등의 수치가 출력된다.|
-|Failed Post Condidtion|데이터가 없거나 분석 오류 메세지가 뜬다.|
+|Failed Post Condition|데이터가 없거나 분석 오류 메세지가 뜬다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -398,7 +399,7 @@ GENERAL CHARACTERISTICS
 |Preconditions|로그인이 되어있어야 한다.|
 |Trigger|회원 관리 버튼을 클릭한 경우|
 |Success Post Condition|존재하는 회원들의 정보 리스트가 뜨고 이를 추가, 수정, 삭제할 수 있다.|
-|Failed Post Condidtion|정보 조회에 실패했다는 메세지와 함께 이전 페이지로 돌아간다.|
+|Failed Post Condition|정보 조회에 실패했다는 메세지와 함께 이전 페이지로 돌아간다.|
 
 MAIN SUCCESS SCENARIO
 |Step|Action|
@@ -414,7 +415,7 @@ EXTENSION SCENARIO
 ||2a.1. 회원 정보 불러오는 것을 실패했다는 메세지를 띄워준다.|
 ||2a.2. 이전 페이지로 돌아간다.|
 ||2b. 회원 정보가 존재하지 않을 경우|
-||2b.1. 회원 정보가 존재하지 않는다는 메세지를 출력한다.
+||2b.1. 회원 정보가 존재하지 않는다는 메세지를 출력한다.|
 
 RELATED INFORMATION
 |Performance|<3Seconds|
@@ -447,7 +448,7 @@ RELATED INFORMATION
 
 데이터베이스 클래스다. 유일하게 사용자 데이터에 접근할 수 있는 클래스이다.
 
-### 6) Habits
+### 6) Habit
 
 습관 클래스다. 사용자가 관리하는 습관에 대한 클래스이다.
 
@@ -455,7 +456,7 @@ RELATED INFORMATION
 
 수행 기록 클래스다. 각 습관을 언제 수행했는지에 대한 데이터를 저장하는 클래스이다.
 
-### 8) Show_List
+### 8) ShowList
 
 조회 클래스다. 현재 있는 습관들을 띄워주는 클래스이다.
 
@@ -463,7 +464,7 @@ RELATED INFORMATION
 
 분석 클래스다. 습관들의 달성률과 연속 성공일을 보여주는 클래스이다.
 
-### 10) MAIN
+### 10) Main
 
 메인 클래스다. 시스템의 모든 과정이 시행되는 클래스이다.
 
@@ -489,7 +490,7 @@ RELATED INFORMATION
 
 ![분석 UI](분석UI.png)
 
-습관 분석의 결과를 보여주는 화면이다. 연속 성공일과 평군 성공률과 오늘 수행한 습관의 개수를 알려주고 있다. 그리고 습관별 달성률이 있다.
+습관 분석의 결과를 보여주는 화면이다. 연속 성공일과 평균 성공률과 오늘 수행한 습관의 개수를 알려주고 있다. 그리고 습관별 달성률이 있다.
 
 
 ## 5. Glossary
