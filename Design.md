@@ -1,6 +1,6 @@
 # 당신을 바꾸는 습관
 
-# 2. Design
+# 3. Design
 
 Student No: 22421575
 
