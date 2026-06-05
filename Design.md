@@ -14,7 +14,7 @@ E-mail: sinjiye0506@naver.com
 ## Revision history
 |Revision date|Version #|Description|Author|
 |:------:|:---:|:-------:|:------:|
-| //2026 | 1.00 | 초안 | 신지예 |
+| 6/5/2026 | 1.00 | 초안 | 신지예 |
 
 ---
 
@@ -32,7 +32,17 @@ E-mail: sinjiye0506@naver.com
 
 ## 1. Introduction
 
+### 1) Summary
+'당신을 바꾸는 습관'은 사용자가 자신의 습관을 등록하고, 수행 여부를 기록하며, 달성률과 연속 성공일을 확인할 수 있는 습관 관리 시스템이다.
 
+본 문서는 실제 구현에 필요한 클래스 구조와 객체 간 상호작용을 설계한다. 또한 주요 가능에 대한 Sequence Diagram과 State Machine Diagram을 정의하여 구현 단계에서 일괄된 구조를 유지하도록한다.
+
+### 2) Important Points of Design
+- 사용자와 관리자의 권한을 구분한다.
+- 습관 데이터와 회원 데이터를 독립적으로 관리한다.
+- 모든 데이터 접근을 Database 클래스를 통해 수행된다.
+- 객체지향 설계를 기반으로 기능별 클래스를 분리한다.
+- 향후 가능 확장이 가능하도록 설계한다.
 
 ---
 
