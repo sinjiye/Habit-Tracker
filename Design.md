@@ -48,7 +48,7 @@ E-mail: sinjiye0506@naver.com
 
 ## 2. Class diagram
 
-
+![Class diagram](class_diagram.png)
 
 
 ---
@@ -89,10 +89,17 @@ E-mail: sinjiye0506@naver.com
 ## 7. References
 
 [Design] Example 1
+
 [Design] Example 2
+
 [Design] Example 3
+
 [Design] Example 4
+
 [Design] Example 5
+
 [Design] Example 6
+
 [Design] Example 7
+
 [Design] Example 8
