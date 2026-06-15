@@ -252,6 +252,7 @@ E-mail: sinjiye0506@naver.com
 
 ## 4. State machine diagram
 
+![State_Machine diagram](state_machine_diagram.png)
 
 
 ---
