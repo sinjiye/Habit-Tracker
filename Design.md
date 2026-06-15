@@ -211,6 +211,41 @@ E-mail: sinjiye0506@naver.com
 
 ## 3. Sequence diagram
 
+1) Register Member (회원 등록)
+
+
+
+2) Log in (로그인)
+
+
+
+3) Log out (로그아웃)
+
+
+
+4) Register Habit (습관 등록)
+
+
+
+5) Delete Habit (습관 삭제)
+
+
+
+6) View Habit List (습관 목록 조회)
+
+
+
+7) Check Habit (습관 수행 체크)
+
+
+
+8) View Statistics (통계 조회)
+
+
+
+9) Manage Member (회원 관리)
+
+
 
 
 ---
