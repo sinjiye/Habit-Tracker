@@ -1,0 +1,2 @@
+admin,1234,관리자,MANAGER
+user1,1234,홍길동,MEMBER
