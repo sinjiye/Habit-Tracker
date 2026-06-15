@@ -15,6 +15,7 @@ E-mail: sinjiye0506@naver.com
 |Revision date|Version #|Description|Author|
 |:------:|:---:|:-------:|:------:|
 | 6/5/2026 | 1.00 | 초안 | 신지예 |
+| 6/15/2026 | 2.00 | 내용 추가 | 신지예 |
 
 ---
 
