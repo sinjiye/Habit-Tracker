@@ -213,39 +213,39 @@ E-mail: sinjiye0506@naver.com
 
 1) Register Member (회원 등록)
 
-
+![Register_Member_diagram](Register_Member.png)
 
 2) Log in (로그인)
 
-
+![Log_in diagram](Log_in.png)
 
 3) Log out (로그아웃)
 
-
+![Log_out diagram](Log_out.png)
 
 4) Register Habit (습관 등록)
 
-
+![Register_Habit diagram](Register_Habit.png)
 
 5) Delete Habit (습관 삭제)
 
-
+![Delete_Hebit diagram](Delete_Habit.png)
 
 6) View Habit List (습관 목록 조회)
 
-
+![View_Habit_List diagram](View_Habit_List.png)
 
 7) Check Habit (습관 수행 체크)
 
-
+![Check_Habit diagram](Check_Habit.png)
 
 8) View Statistics (통계 조회)
 
-
+![View_Statistics diagram](View_Statistics.png)
 
 9) Manage Member (회원 관리)
 
-
+![Manage_Member diagram](Manage_Member.png)
 
 
 ---
